@@ -1,0 +1,19 @@
+{
+  "name": "codemark",
+  "version": "1.0.0",
+  "description": "A read-it-later code store",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanBland/CodeMark.git"
+  },
+  "author": "Nathan Bland, Malachi Mart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanBland/CodeMark/issues"
+  },
+  "homepage": "https://github.com/NathanBland/CodeMark#readme"
+}
