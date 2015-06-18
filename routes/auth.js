@@ -14,7 +14,7 @@ exports.setup = function(app) {
   passport.use(new TwitterStrategy({
     consumerKey: 'OvZLRrSI4UaOulruOPf1lYYLM',
     consumerSecret: 'H1GtwpnZnn45QJoYoAVRx4GBJCYe5WiZKW70kSBYyhcZ90Wy01',
-    callbackURL: "http://localhost:8080/login/twitter/callback"
+    callbackURL: "http://localhost:8081/login/twitter/callback"
   }, function(token, tokenSecret, profile, done) {
 
     process.nextTick(function() {

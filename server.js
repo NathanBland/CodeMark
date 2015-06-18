@@ -21,7 +21,7 @@ nunjucks.configure('views', { //setting up our templating engine
   watch: true
 });
 
-app.set('port', process.env.PORT || 8080); // telling  where our app runs.
+app.set('port', process.env.PORT || 8081); // telling  where our app runs.
 app.set('ip', process.env.IP || '0.0.0.0');
 
 app.use(express.static('public')); //static folder for things like css
