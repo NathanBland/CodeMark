@@ -32,11 +32,7 @@
           <h5 class="">You Don't have any code saved...</h5>
           <p class="">Why not add some below?</p><i class="fa fa-angle-double-down fa-2x"></i>
         </div>
-        <form method="post" action="/code/add">
-          <label for="newCode">Code</label>
-          <textarea class="u-full-width" placeholder="{'codeMark': 'super cool code stuff'}" id="newCode" name="code"></textarea>
-          <button class="button-primary" value="Submit" type="submit">Add Code</button>
-        </form>
+        {% include "partials/codeForm.html"}
         {% endif %}
       </div>
 
