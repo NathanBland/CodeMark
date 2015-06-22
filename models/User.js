@@ -7,6 +7,11 @@ var User = mongoose.Schema({
         token: String,
         displayName: String,
         username: String
+    },
+    github: {
+      id: String,
+      email: String,
+      displayName: String,
     }
 
 });
